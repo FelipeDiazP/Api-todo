@@ -24,5 +24,3 @@ const options: swaggerJSDoc.Options = {
 };
 
 export const swaggerSpec = swaggerJSDoc(options);
-
-console.log("Swagger spec:", JSON.stringify(swaggerSpec, null, 2));
